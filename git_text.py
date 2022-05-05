@@ -6,6 +6,10 @@ print(age)
 name = input('What is your name? ')
 print('Hello ' + name)
 
+name = input("What is your name? ")
+color = input("What is your favority color? ")
+print(name + " likes " + color)
+
 # Conversions
 
 birth_year = input("Enter your birt year: ")
@@ -27,8 +31,5 @@ print(sum)
 price = 25
 print(price > 10 and price < 30 )
 
-name = input("What is your name? ")
-color = input("What is your favority color? ")
-print(name + " likes " + color)
 
 # File 1
