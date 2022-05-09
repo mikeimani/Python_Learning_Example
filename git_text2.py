@@ -25,6 +25,19 @@ else:
     converted = weight * 0.45
     print("weight in Kgs: " + str(converted))
 
+
+is_hot = False
+is_cold = True
+
+if is_hot:
+    print("It is a hot day")
+    print("Drink plenty of  water")
+elif is_cold:
+    print("It is a cold day")
+    print("Wear warm clothes")
+else:
+    print("It is a lovely day")
+
 # File 2
 
 
