@@ -32,5 +32,22 @@ while guess_count < guess_limit:
 else:
     print("Sorry you failed!")
 
+prices = [10, 20, 40]
+total = 0
+for price in prices:
+    total += price
+print(f"Total: {total}")
+
+# Nested loops
+
+numbers = [5, 2, 5, 2, 2]
+for x_count in numbers:
+    output = ""
+    for count in range(x_count):
+        output += "x"
+    print(output)
+
+
+
 
 # File 1 , 2, 3
